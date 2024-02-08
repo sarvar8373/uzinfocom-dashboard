@@ -1,0 +1,37 @@
+.carding{
+    margin: 30px 24px;
+}
+.crd{
+    margin-bottom: 20px;
+    .card-title{
+        font-size: 18px;
+        font-weight: 700;
+        color: #2B3674;
+        line-height: 23.44px;
+        letter-spacing: -2%;
+        
+    }
+    
+}
+.iconss{
+    padding: 5px;
+    color: #0183C6;
+    border-radius: 8px;
+    background-color: #E6F3FA;
+    margin-right:10px;
+}
+.chartNum{
+    .chrt{
+        margin: 10px 20px;
+        .card{
+            margin-right: 20px;
+        }
+    }
+}
+
+.progs{
+    .progress-bar{
+        background-color: #9747FF;
+    }
+    
+}
