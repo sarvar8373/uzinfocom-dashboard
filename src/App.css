@@ -42,6 +42,22 @@
   letter-spacing: -2%;
   line-height: 23.44px;
 }
+.sidebar {
+  background-color: #ffffff;
+  max-width: 290px;
+  z-index: 1;
+  height: auto;
+  transition: max-width 0.3s ease; /* Add transition for smooth animation */
+}
+.logos {
+  display: inline-block;
+}
+.links {
+  display: block;
+}
+.hamburger-btn {
+  display: none; /* Initially hide the hamburger button */
+}
 .lnk,
 .dark {
   width: 100%;
@@ -182,6 +198,9 @@ thead {
     font-size: 14px;
   }
 }
+#mob {
+  display: none !important;
+}
 .tw {
   width: 560px !important;
   height: auto !important;
@@ -189,9 +208,6 @@ thead {
 .tv {
   width: 480px !important;
   height: auto !important;
-}
-.links {
-  margin-top: 20px;
 }
 .react-datepicker-popper {
   z-index: 9999 !important;
@@ -207,8 +223,33 @@ thead {
     width: 100% !important;
   }
 }
+
 @media (max-width: 1000px) {
+  .sidebar {
+    max-width: none; /* Set max-width to none for screens narrower than 1000px */
+  }
+
   .tv {
     width: 100% !important;
+  }
+
+  .logos {
+    margin-left: 48px;
+  }
+  #comp {
+    display: none !important;
+  }
+  #mob {
+    display: block !important;
+  }
+  .hamburger-btn {
+    display: block; /* Show the hamburger button on small screens */
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    z-index: 9999;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
   }
 }

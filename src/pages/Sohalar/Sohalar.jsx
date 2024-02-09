@@ -15,6 +15,7 @@ import img4 from "../../assets/Naqsh 2.png";
 import img7 from "../../assets/Naqsh 4.png";
 import img2 from "../../assets/Vector.png";
 import img3 from "../../assets/Vector2.png";
+import MobileSidebar from "../../components/MobileSidebar";
 
 const Sohalar = () => {
   const [darkMode, setDarkMode] = useState(
@@ -28,19 +29,8 @@ const Sohalar = () => {
   };
   return (
     <div className="d-flex">
-      <Col
-        className={`sidebar d-flex flex-column justify-content-between ${
-          darkMode ? "bg-lighting" : "bg-dark-sidebar"
-        }`}
-      >
-        <Sidebar darkMode={darkMode} />
-        <img
-          src={darkMode ? img2 : img3} // width="100%"
-          // height="250"
-          className="d-inline-block align-top"
-          alt="React Bootstrap logo"
-        />
-      </Col>
+      <Sidebar darkMode={darkMode} />
+      <MobileSidebar darkMode={darkMode} />
       <Col className={`sides ${darkMode ? "bg-light-body" : "bg-dark-body"}`}>
         <img
           src={darkMode ? img4 : img7}
