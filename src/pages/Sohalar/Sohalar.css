@@ -1,37 +1,54 @@
-.carding{
-    margin: 30px 24px;
-}
-.crd{
-    margin-bottom: 20px;
-    .card-title{
-        font-size: 18px;
-        font-weight: 700;
-        color: #2B3674;
-        line-height: 23.44px;
-        letter-spacing: -2%;
-        
-    }
-    
-}
-.iconss{
-    padding: 5px;
-    color: #0183C6;
-    border-radius: 8px;
-    background-color: #E6F3FA;
-    margin-right:10px;
-}
-.chartNum{
-    .chrt{
-        margin: 10px 20px;
-        .card{
-            margin-right: 20px;
-        }
-    }
+.carding {
+  margin: 30px 24px;
 }
 
-.progs{
-    .progress-bar{
-        background-color: #9747FF;
-    }
-    
+.crd {
+  width: 369px;
+  height: auto;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.crd .card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2b3674;
+  line-height: 23.44px;
+  letter-spacing: -2%;
+}
+
+.iconss {
+  padding: 5px;
+  color: #0183c6;
+  border-radius: 8px;
+  background-color: #e6f3fa;
+  margin-right: 10px;
+}
+
+.chartNum .chrt {
+  margin: 10px 20px;
+}
+
+.chartNum .chrt .card {
+  margin-right: 20px;
+}
+
+.progs .progress-bar {
+  background-color: #9747ff;
+}
+@media (max-width: 1400px) {
+  .crd {
+    width: 30%;
+  }
+}
+@media (max-width: 1000px) {
+  .crd {
+    width: 47%;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .crd {
+    width: 100%;
+  }
 }

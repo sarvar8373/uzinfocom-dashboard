@@ -1,47 +1,38 @@
-.box{
-    width: 230px;
-    height: 78px !important;
-    background-color: #F5FCFF !important;
-    margin-left: 20px;
-    margin-right: 20px;
+#box-lightining {
+  background-color: #f5fcff !important;
 }
-    .table-tr{
-        th{
-            color: #7A86A8;
-            font-size: 14px;
-            font-weight: 500;
-            letter-spacing: -2%;
-            line-height: 24px;
-            background-color: #A3AED00F;
-        }
-    }
-    .tbody{
-        tr{
-            th, td{
-                font-size: 14px;
-                font-weight: 700;
-                color: #2B3674;
-                background-color: transparent;
-                border: none;
-            }
-            
-        }
-        
-    }
-.box-txt{
-    padding: 10px 20px 10px 20px;
-    h4{
-        font-size: 14px;
-        font-weight: 500;
-        color: #A3AED0;
-        line-height: 20px;
-        letter-spacing: -2%;
-    }
-    h3{
-        font-size: 22px;
-        font-weight: 700;
-        color: #2B3674;
-        line-height: 30px;
-        letter-spacing: -2%;
-    }
+#bg-dark-box {
+  background-color: #6271c5 !important;
+}
+.box {
+  width: 230px;
+  height: 78px !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cf {
+  width: 770px;
+  height: 904px;
+}
+.box-txt {
+  padding: 10px 20px 10px 20px;
+}
+.box-txt h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a3aed0;
+  line-height: 20px;
+  letter-spacing: -2%;
+}
+.box-txt h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2b3674;
+  line-height: 30px;
+  letter-spacing: -2%;
+}
+@media (max-width: 1500px) {
+  .cf {
+    width: 100%;
+  }
 }

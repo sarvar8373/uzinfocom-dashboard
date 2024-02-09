@@ -1,38 +1,20 @@
-.tabing, .tbl{
-    margin: 24px 20px;
-    height: auto;
-    .card{
-        margin-top: 20px;
-    }
-    .table{
-        height: 500px;
-    }
-    .table-tr{
-        th{
-            color: #7A86A8;
-            font-size: 14px;
-            font-weight: 500;
-            letter-spacing: -2%;
-            line-height: 24px;
-            background-color: #A3AED00F;
-        }
-    }
-    .tbody{
-        tr{
-            th, td{
-                font-size: 14px;
-                font-weight: 700;
-                color: #2B3674;
-                background-color: transparent;
-                border: none;
-            }
-            
-        }
-        
-    }
+.hgh {
+  height: 100vh;
 }
-.ls{
-    .table{
-        height: 300px !important;
-    }
+.tabing .card {
+  margin-top: 20px;
+}
+.tabing,
+.tbl {
+  margin: 24px 20px;
+  height: auto;
+}
+
+.ls .table {
+  height: 300px !important;
+}
+@media (max-width: 1500px) {
+  .hgh {
+    height: auto;
+  }
 }
