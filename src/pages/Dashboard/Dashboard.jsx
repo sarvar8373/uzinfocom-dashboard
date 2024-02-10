@@ -15,7 +15,7 @@ const Dashboard = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/hududlar" element={<Hudud />} />
-      <Route path="/sohalar/" element={<Sohalar />} />
+      <Route path="/sohalar" element={<Sohalar />} />
       <Route path="/tashkilot" element={<QuyiTashkilot />} />
       <Route path="/tashkilot/top-tuman" element={<TopHudud />} />
       <Route path="/tashkilot" element={<QuyiTashkilot />} />

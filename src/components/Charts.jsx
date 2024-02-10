@@ -29,7 +29,7 @@ const Charts = ({ data, options, darkMode }) => {
   }, [chartRef, options]);
 
   return (
-    <div style={{ width: "170px", height: "170px", margin: "30px 20px" }}>
+    <div className="chart">
       <Doughnut
         ref={chartRef}
         data={data}

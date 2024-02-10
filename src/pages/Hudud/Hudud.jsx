@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Breadcrumb, Col, Row } from "react-bootstrap";
+import { Breadcrumb, Col } from "react-bootstrap";
 import { PiMapPinLineLight } from "react-icons/pi";
 import TableIndex from "../../components/TableIndex";
 import img6 from "../../assets/Naqsh 3.png";
@@ -12,8 +12,6 @@ import ChangeButton from "../../components/ChangeButton";
 import Sidebar from "../../components/Sidebar";
 import img4 from "../../assets/Naqsh 2.png";
 import img7 from "../../assets/Naqsh 4.png";
-import img2 from "../../assets/Vector.png";
-import img3 from "../../assets/Vector2.png";
 import MobileSidebar from "../../components/MobileSidebar";
 
 const Hudud = () => {
@@ -89,6 +87,7 @@ const Hudud = () => {
                 </div>
                 <img
                   src={darkMode ? img : img8}
+                  width={"100%"}
                   alt=""
                   className=" px-2 py-3"
                 />

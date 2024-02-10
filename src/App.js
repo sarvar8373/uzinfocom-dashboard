@@ -1,14 +1,13 @@
-// App.js
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "@fontsource/dm-sans";
-import Dashboard from './pages/Dashboard/Dashboard';
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname}>
       <Routes>
         <Route path="/*" element={<Dashboard />} />
       </Routes>

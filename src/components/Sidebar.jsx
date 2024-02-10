@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Col, Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import img from "../assets/logo.png";
 import { RxDashboard } from "react-icons/rx";
-import { IoMdClose } from "react-icons/io";
 import {
   PiMapPinLineLight,
   PiSuitcaseLight,
@@ -107,11 +106,7 @@ const Sidebar = ({ darkMode }) => {
           </div>
         </div>
       </Nav>
-      <img
-        src={darkMode ? img2 : img6}
-        className="align-top logos"
-        alt="React Bootstrap logo"
-      />
+      <img src={darkMode ? img2 : img6} className="align-top" alt="Naqsh" />
     </Col>
   );
 };

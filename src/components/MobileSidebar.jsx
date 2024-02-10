@@ -47,7 +47,11 @@ const MobileSidebar = ({ darkMode }) => {
         className={`hamburger-btn ${darkMode ? "" : "text-light"}`}
         onClick={toggleSidebar}
       >
-        {sidebarOpen ? <IoMdClose /> : String.fromCharCode(9776)}
+        {sidebarOpen ? (
+          <IoMdClose style={{ width: "24px", height: "24px" }} />
+        ) : (
+          String.fromCharCode(9776)
+        )}
       </button>
       <Nav
         defaultActiveKey="/home"
@@ -141,9 +145,9 @@ const MobileSidebar = ({ darkMode }) => {
       </Nav>
       <img
         src={darkMode ? img2 : img6}
-        className="align-top logos"
+        className="align-top"
         style={{ display: sidebarOpen ? "inline-block" : "none" }}
-        alt="React Bootstrap logo"
+        alt="Naqsh"
       />
     </Col>
   );

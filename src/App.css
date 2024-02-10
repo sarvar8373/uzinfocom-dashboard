@@ -64,7 +64,11 @@
   padding-top: 3px !important;
   font-size: 18px !important;
 }
-
+.chart {
+  width: 170px;
+  height: 170px;
+  margin: 30px 20px;
+}
 .side {
   margin-top: 12px;
   font-weight: 700;
@@ -228,11 +232,28 @@ thead {
   .sidebar {
     max-width: none; /* Set max-width to none for screens narrower than 1000px */
   }
-
+  .ts .table-tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ts tbody {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .chart {
+    width: 200px;
+    height: 200px;
+    margin: 30px 20px;
+  }
+  .tw {
+    width: 100% !important;
+  }
   .tv {
     width: 100% !important;
   }
-
+  .sidebar .links {
+    margin-top: 20px;
+  }
   .logos {
     margin-left: 48px;
   }
@@ -240,7 +261,7 @@ thead {
     display: none !important;
   }
   #mob {
-    display: block !important;
+    display: flex !important;
   }
   .hamburger-btn {
     display: block; /* Show the hamburger button on small screens */

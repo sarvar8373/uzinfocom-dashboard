@@ -36,3 +36,12 @@
     width: 100%;
   }
 }
+@media (max-width: 1000px) {
+  .cf {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .box {
+    margin-bottom: 20px;
+  }
+}

@@ -41,7 +41,7 @@ const TableIndex = ({ none, height, darkMode }) => {
     ["10", "Nurota tumani", "207"],
   ];
   return (
-    <div className="d-flex justify-content-start flex-wrap">
+    <div className="d-flex w-100 justify-content-start flex-wrap">
       <div
         className={`card tw me-2 mb-3 border-0 pb-2 ${
           darkMode ? "bg-lighting" : "bg-dark-light"
@@ -56,7 +56,7 @@ const TableIndex = ({ none, height, darkMode }) => {
             Murojaatlar eng ko’p tushgan tuman/shaxar dinamikasi
           </h3>
         </div>
-        <div className="mx-3">
+        <div className="mx-3 ts">
           <Table
             headers={headers}
             rows={rows}
@@ -89,12 +89,10 @@ const TableIndex = ({ none, height, darkMode }) => {
         <img src={img5} alt="" className="card-images px-2 py-3" />
       </div>
       <div
-        className={`card me-2 mb-3 border-0 pb-2 ${
+        className={`card tv me-2 mb-3 border-0 pb-2 ${
           darkMode ? "bg-lighting" : "bg-dark-light"
         }`}
         style={{
-          width: "480px",
-          height: "auto",
           display: `${none}`,
         }}
       >

@@ -97,7 +97,7 @@ const Home = () => {
                   darkMode ? "bg-lighting" : "bg-dark-light"
                 }`}
               >
-                <div className="d-flex flex-nowrap justify-content-between">
+                <div className="d-flex card-wd">
                   <div>
                     <h3
                       className={`card-title ${darkMode ? "" : "text-light"}`}
