@@ -15,7 +15,7 @@ import img6 from "../assets/Vector2.png";
 
 const MobileSidebar = ({ darkMode }) => {
   const location = useLocation();
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const sidebarRef = useRef(null);
 
   const toggleSidebar = () => {

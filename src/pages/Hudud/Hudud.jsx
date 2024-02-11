@@ -16,7 +16,7 @@ import MobileSidebar from "../../components/MobileSidebar";
 
 const Hudud = () => {
   const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || false
+    JSON.parse(localStorage.getItem("darkMode")) || true
   );
 
   const toggleDarkMode = () => {

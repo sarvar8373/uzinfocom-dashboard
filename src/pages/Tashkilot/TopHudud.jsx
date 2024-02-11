@@ -5,8 +5,6 @@ import "./Tashkilot.css";
 import Table from "../../components/Table";
 import img4 from "../../assets/Naqsh 2.png";
 import img7 from "../../assets/Naqsh 4.png";
-import img2 from "../../assets/Vector.png";
-import img3 from "../../assets/Vector2.png";
 import Sidebar from "../../components/Sidebar";
 import ChangeButton from "../../components/ChangeButton";
 import Calendar from "../../components/Calendar";
@@ -14,7 +12,7 @@ import MobileSidebar from "../../components/MobileSidebar";
 
 const TopHudud = () => {
   const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || false
+    JSON.parse(localStorage.getItem("darkMode")) || true
   );
 
   const toggleDarkMode = () => {

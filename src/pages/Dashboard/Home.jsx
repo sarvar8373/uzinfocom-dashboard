@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Breadcrumb, Col, Row } from "react-bootstrap";
+import { Breadcrumb, Col } from "react-bootstrap";
 import img5 from "../../assets/message.png";
 import img4 from "../../assets/map.png";
 import img3 from "../../assets/Union.png";
@@ -16,7 +16,7 @@ import MobileSidebar from "../../components/MobileSidebar";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || false
+    JSON.parse(localStorage.getItem("darkMode")) || true
   );
 
   const toggleDarkMode = () => {

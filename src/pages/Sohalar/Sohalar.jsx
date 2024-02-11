@@ -13,13 +13,11 @@ import ChangeButton from "../../components/ChangeButton";
 import Sidebar from "../../components/Sidebar";
 import img4 from "../../assets/Naqsh 2.png";
 import img7 from "../../assets/Naqsh 4.png";
-import img2 from "../../assets/Vector.png";
-import img3 from "../../assets/Vector2.png";
 import MobileSidebar from "../../components/MobileSidebar";
 
 const Sohalar = () => {
   const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || false
+    JSON.parse(localStorage.getItem("darkMode")) || true
   );
 
   const toggleDarkMode = () => {

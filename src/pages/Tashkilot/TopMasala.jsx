@@ -6,14 +6,12 @@ import Calendar from "../../components/Calendar";
 import ChangeButton from "../../components/ChangeButton";
 import img4 from "../../assets/Naqsh 2.png";
 import img7 from "../../assets/Naqsh 4.png";
-import img2 from "../../assets/Vector.png";
-import img3 from "../../assets/Vector2.png";
 import Sidebar from "../../components/Sidebar";
 import MobileSidebar from "../../components/MobileSidebar";
 
 const TopMasala = () => {
   const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || false
+    JSON.parse(localStorage.getItem("darkMode")) || true
   );
 
   const toggleDarkMode = () => {
