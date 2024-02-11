@@ -11,15 +11,17 @@ import img7 from "../../assets/Naqsh 4.png";
 import MobileSidebar from "../../components/MobileSidebar";
 
 const QuyiTashkilot = () => {
-  const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || true
-  );
+  const [darkMode, setDarkMode] = useState(() => {
+    const storedDarkMode = localStorage.getItem("darkMode");
+    return storedDarkMode ? JSON.parse(storedDarkMode) : true;
+  });
 
   const toggleDarkMode = () => {
     const newDarkMode = !darkMode;
     setDarkMode(newDarkMode);
     localStorage.setItem("darkMode", JSON.stringify(newDarkMode));
   };
+
   const headers1 = ["T/R", "Davlat tashkilotlari"];
   const rows1 = [
     [

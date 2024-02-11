@@ -10,15 +10,17 @@ import Sidebar from "../../components/Sidebar";
 import MobileSidebar from "../../components/MobileSidebar";
 
 const TopMasala = () => {
-  const [darkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("darkMode")) || true
-  );
+  const [darkMode, setDarkMode] = useState(() => {
+    const storedDarkMode = localStorage.getItem("darkMode");
+    return storedDarkMode ? JSON.parse(storedDarkMode) : true;
+  });
 
   const toggleDarkMode = () => {
     const newDarkMode = !darkMode;
     setDarkMode(newDarkMode);
     localStorage.setItem("darkMode", JSON.stringify(newDarkMode));
   };
+
   const headers1 = [
     "T/R",
     "Masala nomi",
