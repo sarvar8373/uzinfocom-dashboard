@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uzinfocom-dashboard/static/css/main.23fac5a5.css",
-    "main.js": "/uzinfocom-dashboard/static/js/main.863c1562.js",
+    "main.js": "/uzinfocom-dashboard/static/js/main.f705d5fa.js",
     "static/media/Naqsh 5.png": "/uzinfocom-dashboard/static/media/Naqsh 5.96485e7f8231c57a7329.png",
     "static/media/Naqsh 3.png": "/uzinfocom-dashboard/static/media/Naqsh 3.a44e5d74facd0a3d9c9a.png",
     "static/media/Vector2.png": "/uzinfocom-dashboard/static/media/Vector2.ea85df7f4074caea85b4.png",
@@ -16,10 +16,10 @@
     "static/media/dm-sans-latin-ext-400-normal.woff2": "/uzinfocom-dashboard/static/media/dm-sans-latin-ext-400-normal.8d403ac2bf526dbdd75a.woff2",
     "index.html": "/uzinfocom-dashboard/index.html",
     "main.23fac5a5.css.map": "/uzinfocom-dashboard/static/css/main.23fac5a5.css.map",
-    "main.863c1562.js.map": "/uzinfocom-dashboard/static/js/main.863c1562.js.map"
+    "main.f705d5fa.js.map": "/uzinfocom-dashboard/static/js/main.f705d5fa.js.map"
   },
   "entrypoints": [
     "static/css/main.23fac5a5.css",
-    "static/js/main.863c1562.js"
+    "static/js/main.f705d5fa.js"
   ]
 }
