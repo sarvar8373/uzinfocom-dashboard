@@ -75,12 +75,12 @@ const MobileSidebar = ({ darkMode }) => {
             className="links"
             style={{ display: sidebarOpen ? "block" : "none" }}
           >
-            <Nav.Link
-              className={`${darkMode ? "lnk" : "dark"} ps-0 `}
-              href="/"
-              active={location.pathname === "/"}
-            >
-              <Link className="text-decoration-none" to="/">
+            <Link className="text-decoration-none" to="/">
+              <Nav.Link
+                className={`${darkMode ? "lnk" : "dark"} ps-0 `}
+                href="/"
+                active={location.pathname === "/"}
+              >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>
                   <RxDashboard
                     className="icon pe-1"
@@ -88,14 +88,15 @@ const MobileSidebar = ({ darkMode }) => {
                   />
                   Umumiy statistika
                 </div>
-              </Link>
-            </Nav.Link>
-            <Nav.Link
-              className={`${darkMode ? "lnk" : "dark"} ps-0 `}
-              eventKey="link-1"
-              active={location.pathname === "/hududlar"}
-            >
-              <Link className="text-decoration-none" to="/hududlar">
+              </Nav.Link>
+            </Link>
+            <Link className="text-decoration-none" to="/hududlar">
+              <Nav.Link
+                className={`${darkMode ? "lnk" : "dark"} ps-0 `}
+                eventKey="link-1"
+                href="/hududlar"
+                active={location.pathname === "/hududlar"}
+              >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>
                   <PiMapPinLineLight
                     className="icon pe-1"
@@ -103,14 +104,15 @@ const MobileSidebar = ({ darkMode }) => {
                   />
                   Hududlar kesimida
                 </div>
-              </Link>
-            </Nav.Link>
-            <Nav.Link
-              className={`${darkMode ? "lnk" : "dark"} ps-0 `}
-              eventKey="link-2"
-              active={location.pathname === "/sohalar"}
-            >
-              <Link className="text-decoration-none" to="/sohalar">
+              </Nav.Link>
+            </Link>
+            <Link className="text-decoration-none" to="/sohalar">
+              <Nav.Link
+                className={`${darkMode ? "lnk" : "dark"} ps-0 `}
+                href="/sohalar"
+                eventKey="link-2"
+                active={location.pathname === "/sohalar"}
+              >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>
                   <PiSuitcaseLight
                     className="icon pe-1"
@@ -118,19 +120,20 @@ const MobileSidebar = ({ darkMode }) => {
                   />
                   Sohalar kesimida
                 </div>
-              </Link>
-            </Nav.Link>
-            <Nav.Link
-              className={`lnk ${darkMode ? "" : "dark"} ps-0 `}
-              eventKey="link-3"
-              active={
-                location.pathname === "/tashkilot" ||
-                location.pathname === "/tashkilot/top-tuman" ||
-                location.pathname === "/tashkilot/top-masala" ||
-                location.pathname === "/tashkilot/muddati"
-              }
-            >
-              <Link className="text-decoration-none" to="/tashkilot">
+              </Nav.Link>
+            </Link>
+            <Link className="text-decoration-none" to="/tashkilot">
+              <Nav.Link
+                className={`lnk ${darkMode ? "" : "dark"} ps-0 `}
+                eventKey="link-3"
+                href="/tashkilot"
+                active={
+                  location.pathname === "/tashkilot" ||
+                  location.pathname === "/tashkilot/top-tuman" ||
+                  location.pathname === "/tashkilot/top-masala" ||
+                  location.pathname === "/tashkilot/muddati"
+                }
+              >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>
                   <PiDoorLight
                     className="icon pe-1"
@@ -138,8 +141,8 @@ const MobileSidebar = ({ darkMode }) => {
                   />
                   Tashkilotlar kesimida
                 </div>
-              </Link>
-            </Nav.Link>
+              </Nav.Link>
+            </Link>
           </div>
         </div>
       </Nav>

@@ -142,7 +142,7 @@ const TopMasala = () => {
                   O’zbekiston Respublikasi raqobatni rivojlantirish va
                   iste’molchilar huquqlarini himoya qilish qo’mitasi{" "}
                 </h3>
-                <div className="tbl">
+                <div className="tbl tab">
                   <Table
                     headers={headers1}
                     rows={rows1}

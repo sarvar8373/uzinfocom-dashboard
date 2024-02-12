@@ -166,3 +166,29 @@
     width: 90%;
   }
 }
+@media (max-width: 950px) {
+  .card-wd {
+    justify-content: space-around;
+  }
+
+  .doughnut {
+    top: 55%;
+    left: 19%;
+  }
+  .wth {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .doughnut {
+    top: 55%;
+    left: 15%;
+  }
+}
+@media (max-width: 450px) {
+  .doughnut {
+    top: 29%;
+    left: 32.5%;
+  }
+}

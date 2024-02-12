@@ -18,3 +18,10 @@
     height: auto;
   }
 }
+@media (max-width: 1000px) {
+  .tab .table-tr,
+  .tab .tbody {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
