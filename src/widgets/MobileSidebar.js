@@ -18,7 +18,7 @@ const MobileSidebar = ({ darkMode }) => {
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
-
+  //ss
   const closeSidebar = (e) => {
     if (sidebarRef.current && !sidebarRef.current.contains(e.target)) {
       setSidebarOpen(false);
