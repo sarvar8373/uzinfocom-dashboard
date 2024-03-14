@@ -8,7 +8,6 @@ import Calendar from "../../shared/ui/Calendar";
 import Sidebar from "../../widgets/Sidebar";
 import ChangeButton from "../../shared/ui/ChangeButton";
 import MobileSidebar from "../../widgets/MobileSidebar";
-
 const Home = () => {
   const [darkMode, setDarkMode] = useState(() => {
     const storedDarkMode = localStorage.getItem("darkMode");
@@ -54,19 +53,11 @@ const Home = () => {
       <Sidebar darkMode={darkMode} />
       <MobileSidebar darkMode={darkMode} />
       <Col className={`sides ${darkMode ? "bg-light-body" : "bg-dark-body"}`}>
-        {darkMode ? (
-          <img
-            src="./images/Naqsh 2.png"
-            className="d-inline-block naqsh align-top"
-            alt="Naqsh 2"
-          />
-        ) : (
-          <img
-            src="./images/Naqsh 4.png"
-            className="d-inline-block naqsh align-top"
-            alt="Naqsh 4"
-          />
-        )}
+        <img
+          src={darkMode ? "./images/Naqsh 2.png" : "./images/Naqsh 4.png"}
+          className="d-inline-block naqsh align-top"
+          alt="React Bootstrap logo"
+        />
         <div className="rel">
           <div className="head d-flex flex-wrap justify-content-between">
             <div>
