@@ -1,0 +1,27 @@
+.hgh {
+  height: 100vh;
+}
+.tabing .card {
+  margin-top: 20px;
+}
+.tabing,
+.tbl {
+  margin: 24px 20px;
+  height: auto;
+}
+
+.ls .table {
+  height: 300px !important;
+}
+@media (max-width: 1500px) {
+  .hgh {
+    height: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .tab .table-tr,
+  .tab .tbody {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
