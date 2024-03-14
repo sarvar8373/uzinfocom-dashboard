@@ -39,7 +39,7 @@ const Sidebar = ({ darkMode }) => {
               <Nav.Link
                 className={`${darkMode ? "lnk" : "dark"} ps-0 `}
                 href="/"
-                active={location.pathname === "/"}
+                active={location.pathname === "/home"}
               >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>
                   <RxDashboard
@@ -89,9 +89,9 @@ const Sidebar = ({ darkMode }) => {
                 href="/tashkilot"
                 active={
                   location.pathname === "/tashkilot" ||
-                  location.pathname === "/tashkilot/top-tuman" ||
-                  location.pathname === "/tashkilot/top-masala" ||
-                  location.pathname === "/tashkilot/muddati"
+                  location.pathname === "/top-tuman" ||
+                  location.pathname === "/top-masala" ||
+                  location.pathname === "/muddati"
                 }
               >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>

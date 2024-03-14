@@ -20,36 +20,36 @@ const Tabs = ({ darkmode }) => {
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link active={location.pathname === "/tashkilot/top-tuman"}>
+          <Nav.Link active={location.pathname === "/top-tuman"}>
             <Link
               className={`links text-decoration-none ${
                 darkmode ? "" : "text-light"
               }`}
-              to="/tashkilot/top-tuman"
+              to="/top-tuman"
             >
               Top tumanlar
             </Link>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link active={location.pathname === "/tashkilot/top-masala"}>
+          <Nav.Link active={location.pathname === "/top-masala"}>
             <Link
               className={`links text-decoration-none ${
                 darkmode ? "" : "text-light"
               }`}
-              to="/tashkilot/top-masala"
+              to="/top-masala"
             >
               Top masalalar
             </Link>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link active={location.pathname === "/tashkilot/muddati"}>
+          <Nav.Link active={location.pathname === "/muddati"}>
             <Link
               className={`links text-decoration-none ${
                 darkmode ? "" : "text-light"
               }`}
-              to="/tashkilot/muddati"
+              to="/muddati"
             >
               Muddati buzilgan
             </Link>
