@@ -1,0 +1,200 @@
+{
+  "data1": {
+    "headers": [
+      "T/R",
+      "Tuman/Shaxar nomi",
+      "2022 yil",
+      "2023 yil",
+      "Farqi",
+      "O’zgarishi"
+    ],
+    "rows": [
+      ["1", "Yunusobod tumani", "207", "207", "207", "207"],
+      ["2", "Yashnobod tumani", "207", "207", "207", "207"],
+      ["3", "Olmazor tumani", "207", "207", "207", "207"],
+      ["4", "Navoiy Shaxri", "207", "207", "207", "207"],
+      ["5", "Uchtepa tumani", "207", "207", "207", "207"],
+      ["6", "Samarqand shaxri", "207", "207", "207", "207"],
+      ["7", "Dehqonood tumani", "207", "207", "207", "207"],
+      ["8", "Qarshi shaxri", "207", "207", "207", "207"],
+      ["9", "Sarosiyo tumani", "207", "207", "207", "207"],
+      ["10", "Nurota tumani", "207", "207", "207", "207"]
+    ]
+  },
+  "data2": {
+    "headers": ["T/R", "Tashkilotlar nomi", "Jami"],
+    "rows": [
+      ["1", "Energetika vazirligi", "207"],
+      ["2", "Qurilish va kommunal xo’jalik vazirligi", "207"],
+      ["3", "Kambagallikni qisqartirish va bandlik vazirligi", "207"],
+      ["4", "Iqtisodiyot va moliya vazirligi", "207"],
+      ["5", "Uchtepa tumani", "207"],
+      ["6", "Samarqand shaxri", "207"],
+      ["7", "Dehqonood tumani", "207"],
+      ["8", "Qarshi shaxri", "207"],
+      ["9", "Sarosiyo tumani", "207"],
+      ["10", "Nurota tumani", "207"]
+    ]
+  },
+  "data3": {
+    "headers": ["T/R", "Tashkilot nomi", "Murojaatlar soni"],
+    "rows": [
+      [
+        "1",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasi",
+        "28"
+      ],
+      [
+        "2",
+        "Raqobatni rivojlantirish va iste’molchilar  huquqlarini himoya qilish qo’mitasining Buxoro viloyati hududiy boshqarmasi",
+        "28"
+      ],
+      [
+        "3",
+        "Qoraqalpog’iston Reaspublikasi Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasi",
+        "28"
+      ],
+      [
+        "4",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Namangan viloyati hududiy boshqarmasi",
+        "28"
+      ],
+      [
+        "5",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Navoiy viloyati hududiy boshqarmasi",
+        "28"
+      ]
+    ]
+  },
+  "data4": {
+    "headers": ["T/R", "Davlat tashkilotlari"],
+    "rows": [
+      [
+        "1",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasi"
+      ],
+      [
+        "2",
+        "Raqobatni rivojlantirish va iste’molchilar  huquqlarini himoya qilish qo’mitasining Buxoro viloyati hududiy boshqarmasi"
+      ],
+      [
+        "3",
+        "Qoraqalpog’iston Reaspublikasi Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasi"
+      ],
+      [
+        "4",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Namangan viloyati hududiy boshqarmasi"
+      ],
+      [
+        "5",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Navoiy viloyati hududiy boshqarmasi"
+      ],
+      [
+        "6",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Qashqadaryo viloyati hududiy boshqarmasi"
+      ],
+      [
+        "7",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Jizzax viloyati hududiy boshqarmasi"
+      ],
+      [
+        "8",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Samarqand viloyati hududiy boshqarmasi"
+      ],
+      [
+        "9",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Samarqand viloyati hududiy boshqarmasi"
+      ],
+      [
+        "10",
+        "Raqobatni rivojlantirish va iste’molchilar huquqlarini himoya qilish qo’mitasining Samarqand viloyati hududiy boshqarmasi"
+      ]
+    ]
+  },
+  "data5": {
+    "headers": ["T/R", "Tuman/shahar nomi", "3 511", "3 381", "-130", "-4%"],
+    "rows": [
+      ["1", "Yunusobod tumani", "207", "103", "-104", "-50%"],
+      ["2", "Yashnobod tumani", "207", "103", "-104", "-50%"],
+      ["3", "Olmazor tumani", "207", "103", "-104", "-50%"],
+      ["4", "Navoiy shaxri", "207", "103", "-104", "-50%"],
+      ["5", "Uchtepa tumani", "207", "103", "-104", "-50%"],
+      ["6", "Sergeli tumani", "207", "103", "-104", "-50%"],
+      ["7", "Mirzo Ulugbek tumani", "207", "103", "-104", "-50%"],
+      ["8", "Samarqand shahri", "207", "103", "-104", "-50%"],
+      ["9", "Dehqonobod tumani", "207", "103", "-104", "-50%"],
+      ["10", "Samarqand shahri", "207", "103", "-104", "-50%"]
+    ]
+  },
+  "data6": {
+    "headers": [
+      "T/R",
+      "Masala nomi",
+      "2022 yil",
+      "2023 yil",
+      "Farqi",
+      "O’zgarish"
+    ],
+    "rows": [
+      ["1", "Aliment undirish so’rovi", "207", "103", "-104", "50%"],
+      ["2", "Oilaviy nizolar", "207", "103", "-104", "50%"],
+      [
+        "3",
+        "Yashash sharoitlarini yaxshilash, uy-joyni ta’mirlash va kurish uchun yordam",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      [
+        "4",
+        "Muxtojlarga bir martalik moddiy yordam",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      [
+        "5",
+        "Tadbirkorlik faoliyatini rivojelantirish uchun kredit",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      [
+        "6",
+        "Gaz ballonni suyultirilgan gaz bilan to’ldirishdagi muammolar",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      [
+        "7",
+        "Davolanish va jarrohlik amaliyoti uchun moddiy yordam (mamlakat ichida)",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      [
+        "8",
+        "Surishtiruv va tergov xarakatlaridan norozilik",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      [
+        "9",
+        "Majburiy ijro byurosi xodimi xatti- harakatlari",
+        "207",
+        "103",
+        "-104",
+        "50%"
+      ],
+      ["10", "Uy-joy bilan ta’minlash", "207", "103", "-104", "50%"]
+    ]
+  }
+}

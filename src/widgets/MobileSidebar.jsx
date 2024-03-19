@@ -1,28 +1,61 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Col, Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import { RxDashboard } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
 import {
   PiMapPinLineLight,
   PiSuitcaseLight,
   PiDoorLight,
 } from "react-icons/pi";
-
-const Sidebar = ({ darkMode }) => {
+//ss
+const MobileSidebar = ({ darkMode }) => {
   const location = useLocation();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const sidebarRef = useRef(null);
 
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+  //ss
+  const closeSidebar = (e) => {
+    if (sidebarRef.current && !sidebarRef.current.contains(e.target)) {
+      setSidebarOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", closeSidebar);
+    return () => {
+      document.removeEventListener("click", closeSidebar);
+    };
+  }, []);
   return (
     <Col
       className={`sidebar d-flex flex-column justify-content-between ${
         darkMode ? "bg-lighting" : "bg-dark-sidebar"
       }`}
-      id="comp"
+      id="mob"
+      ref={sidebarRef}
+      style={{ maxWidth: sidebarOpen ? "290px" : "0px" }}
     >
+      <button
+        className={`hamburger-btn ${darkMode ? "" : "text-light"}`}
+        onClick={toggleSidebar}
+      >
+        {sidebarOpen ? (
+          <IoMdClose style={{ width: "24px", height: "24px" }} />
+        ) : (
+          String.fromCharCode(9776)
+        )}
+      </button>
       <Nav
         defaultActiveKey="/home"
         className="flex-column justify-content-between flex-nowrap"
-        style={{ height: "auto" }}
+        style={{
+          height: "auto",
+        }}
       >
         <div>
           <Navbar.Brand className="side" href="#home">
@@ -30,16 +63,20 @@ const Sidebar = ({ darkMode }) => {
               src="./images/logo.png"
               width="118"
               height="56"
-              className="align-top d-inline-block"
+              className="align-top logos"
+              style={{ display: sidebarOpen ? "inline-block" : "none" }}
               alt="logo"
             />
           </Navbar.Brand>
-          <div className="links">
+          <div
+            className="links"
+            style={{ display: sidebarOpen ? "block" : "none" }}
+          >
             <Link className="text-decoration-none" to="/">
               <Nav.Link
                 className={`${darkMode ? "lnk" : "dark"} ps-0 `}
                 href="/"
-                active={location.pathname === "/home"}
+                active={location.pathname === "/"}
               >
                 <div className={`side ${darkMode ? "" : "text-light"} `}>
                   <RxDashboard
@@ -107,12 +144,13 @@ const Sidebar = ({ darkMode }) => {
         </div>
       </Nav>
       <img
-        src={darkMode ? "./images/vector.png" : "./images/vector.png"}
+        src={darkMode ? "./images/vector.png" : "./images/vector2.png"}
         className="align-top"
+        style={{ display: sidebarOpen ? "inline-block" : "none" }}
         alt="Naqsh"
       />
     </Col>
   );
 };
 
-export default Sidebar;
+export default MobileSidebar;

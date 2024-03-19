@@ -39,7 +39,10 @@
   margin-bottom: 24px;
   gap: 20px 20px;
 }
-
+.card {
+  z-index: 999;
+  border-radius: 20px !important;
+}
 .card-text {
   margin-left: 20px;
   font-size: 14px !important;
@@ -57,12 +60,6 @@
   margin-top: 24px;
   margin-left: 20px;
   margin-bottom: 24px;
-}
-
-.card {
-  border-radius: 20px;
-  z-index: 999;
-  height: 340px;
 }
 
 .circle {
@@ -104,11 +101,17 @@
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+.fx {
+  width: 50%;
+}
+
 .wd {
-  width: 400px !important;
+  width: 50% !important;
+  height: 340px !important;
 }
 .wc {
-  width: 700px !important;
+  width: 48% !important;
+  height: 340px !important;
 }
 .hw {
   width: 100% !important;
@@ -116,13 +119,13 @@
 }
 .wth {
   width: 168px !important;
-  height: 240px;
+  height: 240px !important;
   box-shadow: 2px 2px 12px 2px #7090b01f;
   margin-top: 68px;
   padding: 10px 20px;
   margin-right: 90px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
   .wd,
   .fx {
     width: 100% !important;
@@ -160,7 +163,7 @@
   .wd {
     width: 100% !important;
     margin-bottom: 20px;
-    height: auto;
+    height: auto !important;
   }
   .naqsh {
     width: 90%;
