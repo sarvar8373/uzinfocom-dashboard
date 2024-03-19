@@ -13,6 +13,7 @@
 .cf {
   width: 770px;
   height: 904px;
+  padding: 20px;
 }
 .box-txt {
   padding: 10px 20px 10px 20px;
@@ -31,7 +32,7 @@
   line-height: 30px;
   letter-spacing: -2%;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .cf {
     width: 100%;
   }
